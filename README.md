@@ -1,6 +1,6 @@
 # Collecting Data from SARB's Web-Based API
 
-I will be collating python code for collect various types of data from the SARB's web page here.
+I will be collating python code for collecting various types of data from the SARB's web page here.
 
 ## Table of Contents
 
