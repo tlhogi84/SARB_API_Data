@@ -24,11 +24,11 @@ I will be adding code for collecting and cleaning the other data here as I tackl
 Python 3.x
 
 The project also assumes you ave already installed the necessary libraries used in order to facilitate the following imports:
-import requests
-import pandas as pd
-import xml.etree.ElementTree as ET
-import os
-import datetime
+* import requests
+* import pandas as pd
+* import xml.etree.ElementTree as ET
+* import os
+* import datetime
 
 ## Files
 
