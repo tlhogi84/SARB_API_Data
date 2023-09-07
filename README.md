@@ -13,7 +13,7 @@ I will be collating python code for collect various types of data from the SARB'
 
 ## Project Overview
 
-This project began as a simple guide to assist"non-tech" financial professionals overcome the hurdle of using API's
+This project began as a simple guide to assist "non-tech" financial professionals overcome the hurdle of using API's
 For now it contains a simple example of how to collect bond market data from the South African Reserve Bank's web-based API
 The article can be found on my Linkedin Page: www.linkedin.com/in/tlhogi
 
