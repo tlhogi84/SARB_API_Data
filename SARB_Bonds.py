@@ -13,7 +13,8 @@ if response.status_code == 200:
     data = response.json()
 else:
     print(f"Failed to fetch data. Status code: {response.status_code}")
-    
+
+df       = pd.DataFrame(data)
 xml_data = df["XMLData"].values[0]
 
 root = ET.fromstring(xml_data)
