@@ -32,9 +32,9 @@ The project also assumes you ave already installed the necessary libraries used 
 
 ## Files
 
-notebooks/: Jupyter notebooks with python code used for collecting data - annotated for your understanding
-.py files/: Python files with pure python code without annotations and intermediate print-outs
-README.md : This file, providing an overview of the project.
+* notebooks/: Jupyter notebooks with python code used for collecting data - annotated for your understanding
+* .py files/: Python files with pure python code without annotations and intermediate print-outs
+* README.md : This file, providing an overview of the project.
 
 ## Usage
 
