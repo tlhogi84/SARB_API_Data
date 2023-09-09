@@ -33,11 +33,13 @@ df.reset_index(drop=True, inplace=True)
 
 current_date = datetime.date.today()
 
-if current_date.weekday() in {0, 5, 6}:  # Monday, Saturday, or Sunday
+if current_date.weekday() == 0:  # Monday
     previous_working_day = current_date - datetime.timedelta(days=3)
+elif current_date.weekday() == 5:  # Sunday
+    previous_working_day = current_date - datetime.timedelta(days=2) 
 else:
     previous_working_day = current_date - datetime.timedelta(days=1)
-
+    
 date_str = previous_working_day.strftime('%Y%m%d')
 
 csv_file_name = f'{date_str}_Rates.csv'
